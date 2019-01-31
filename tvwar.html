@@ -1,0 +1,171 @@
+<!--CAP 5738: Data Visualization
+	Assignment-1: Manual SVG Drawing
+	Students: Brenda Izquierdo (PID: 3886796)
+			  Fnu Priyanka (PID: 6085907)
+-->
+
+<html>
+
+<style> 
+.pie {
+  width: 400px;
+  background: #f06;
+  border-radius: 50%;
+  margin-left: 40px;
+
+}
+
+.pie circle {
+  fill: none;
+  stroke-width: 32;
+}
+
+.legend{
+  stroke-width:1;
+  stroke:black;
+}
+
+.bar-chart{
+	float:left;
+	margin-top: 20px; 
+	margin-left:100px;
+}
+
+.pie-chart{
+	float:right;
+	margin-top: 20px; 
+	margin-left:-500px;
+	margin-right:100px;
+}
+
+</style> 
+<body style="background-color:cornsilk">
+
+<h1 align="center" style="margin-top:20px;">Assignment-1: Manual SVG Drawing</h1>
+
+<div class="bar-chart">
+<h1 style="margin-left:175px;">TV WAR</h1>
+
+<svg width="950" height="500" style="margin-top: -80px;">
+	<g transform="translate(40,20)">
+	<g transform="translate(0,450)">
+			<g transform="translate(25.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+			<text dy=".71em" y="9" x="10" style="text-anchor: middle;">No TV</text>
+		</g>
+			<g  transform="translate(59.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+			<text dy=".71em" y="9" x="55" style="text-anchor: middle;">Breaking Bad</text>
+		</g>
+			<g  transform="translate(93.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+			<text dy=".71em" y="9" x="130" style="text-anchor: middle;">Game of Thrones</text>
+		</g>
+			<g  transform="translate(127.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+			<text dy=".71em" y="9" x="190" style="text-anchor: middle;">Both</text>
+		</g>
+			<g  transform="translate(161.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+			<text dy=".71em" y="9" x="250" style="text-anchor: middle;">Others</text>
+		</g>
+			
+	
+		
+<line x1="0" y1="-350" x2="450" y2="-350" style="stroke:grey;stroke-width:1" stroke-dasharray="1, 1"></line>
+<line x1="0" y1="-280" x2="450" y2="-280" style="stroke:grey;stroke-width:1" stroke-dasharray="1, 1"></line>
+<line x1="0" y1="-210" x2="450" y2="-210" style="stroke:grey;stroke-width:1" stroke-dasharray="1, 1"></line>
+<line x1="0" y1="-140" x2="450" y2="-140" style="stroke:grey;stroke-width:1" stroke-dasharray="1, 1"></line>
+<line x1="0" y1="-70" x2="450" y2="-70" style="stroke:grey;stroke-width:1" stroke-dasharray="1, 1"></line>
+		<path d="M0,2V0H456V2"></path>
+	</g>
+		<g>
+				<g  transform="translate(0,450)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">0</text>
+		</g>
+		<!--	<g  transform="translate(0,414.57250826641473)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">1</text>
+		</g>-->
+			<g  transform="translate(0,379.14501653282946)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">2</text>
+		</g>
+		<!--	<g  transform="translate(0,343.71752479924425)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">3</text>
+		</g>-->
+			<g  transform="translate(0,308.290033065659)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">4</text>
+		</g>
+		<!--	<g  transform="translate(0,272.86254133207365)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">5</text>
+		</g>-->
+			<g  transform="translate(0,237.43504959848843)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">6</text>
+		</g>
+		<!--	<g  transform="translate(0,202.0075578649031)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">7</text>
+		</g>-->
+			<g  transform="translate(0,166.5800661313179)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">8</text>
+		</g>
+		<!--	<g  transform="translate(0,131.15257439773262)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">9</text>
+		</g>-->
+			<g  transform="translate(0,95.72508266414734)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">10</text>
+		</g>
+		<!--	<g  transform="translate(0,60.297590930562116)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+			<text dy=".32em" x="-9" y="0" style="text-anchor: end;">11</text>
+		</g>-->
+		
+		
+		
+	
+		<path d="M-2,50H0V452H-2"></path>
+		
+	</g>
+			<rect x="10" width="31" y="240" height="210" fill="green"></rect>
+			<rect x="100" width="31" y="345" height="105" fill="yellow"></rect>
+			<rect x="200" width="31" y="100" height="350" fill="blue"></rect>
+			<rect x="300" width="31" y="205" height="245" fill="sienna"></rect>
+			<rect x="400" width="31" y="205" height="245" fill="#f06"></rect>
+
+	
+	</g>
+</svg>
+</div>		
+
+<div class="pie-chart">	
+<h1 style="margin-left:175px;">TV WAR</h1>
+<div>
+<svg width="500px" height="50px">
+  <rect x="0"   width="15" height="15" class= "legend" style="fill:green;"></rect>  
+  <rect x="80"  width="15" height="15" class= "legend" style="fill:yellow;"></rect> 
+  <rect x="200" width="15" height="15" class= "legend" style="fill:blue;"></rect>
+  <rect x="343" width="15" height="15" class= "legend" style="fill:Sienna;"></rect>  
+  <rect x="410"  width="15" height="15" class= "legend" style="fill:#f06;"></rect> 
+
+  
+  <text x="20" y="13" style="fill:black;font-size:15px;">No TV</text>
+  <text x="100" y="13" style="fill:black;font-size:15px;">Breaking Bad</text>
+  <text x="220" y="13" style="fill:black;font-size:15px;">Game of Thrones</text>
+  <text x="363" y="13" style="fill:black;font-size:15px;">Both</text>
+  <text x="430" y="13" style="fill:black;font-size:15px;">Others</text>
+</svg>
+</div>
+<svg viewBox="0 0 64 64" class="pie">
+ <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 18.0 100; stroke: green; stroke-dashoffset: -75.0;">
+  </circle>
+  <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 8.0 100; stroke: yellow; stroke-dashoffset: -93.0;">
+  </circle>
+  <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 1.0 100; stroke: yellow; stroke-dashoffset: 0.0;">
+  </circle>
+  <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 31.0 100; stroke: blue; stroke-dashoffset: -1.0;">
+  </circle>
+   <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 21.0 100; stroke: Sienna; stroke-dashoffset: -32.0;">
+  </circle>
+  <text x="15" y="20" style="fill:white;font-size:5px;">21%</text>
+  <text x="40" y="20" style="fill:white;font-size:5px;">18%</text>
+  <text x="50" y="30" style="fill:black;font-size:5px;">9%</text>
+  <text x="40" y="45" style="fill:white;font-size:5px;">31%</text>
+  <text x="10" y="40" style="fill:white;font-size:5px;">21%</text>
+
+</svg>
+</div>
+
+</body>
+</html>

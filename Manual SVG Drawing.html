@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<style> 
+.pie {
+  width: 400px;
+  background: #f06;
+  border-radius: 50%;
+}
+
+.pie circle {
+  fill: none;
+  stroke-width: 32;
+}
+
+.legend{
+  stroke-width:1;
+  stroke:black;
+}
+
+
+</style> 
+<h1 style="margin-left:160px;">TV WAR</h1>
+<div>
+<svg width="500px" height="50px">
+  <rect x="0"   width="15" height="15" class= "legend" style="fill:green;"></rect>  
+  <rect x="80"  width="15" height="15" class= "legend" style="fill:yellow;"></rect> 
+  <rect x="200" width="15" height="15" class= "legend" style="fill:blue;"></rect>
+  <rect x="345" width="15" height="15" class= "legend" style="fill:darkgray;"></rect>  
+  <rect x="410"  width="15" height="15" class= "legend" style="fill:#f06;"></rect> 
+
+  
+  <text x="20" y="13" style="fill:black;font-size:15px;">No TV</text>
+  <text x="100" y="13" style="fill:black;font-size:15px;">Breaking Bad</text>
+  <text x="220" y="13" style="fill:black;font-size:15px;">Game of Thrones</text>
+  <text x="365" y="13" style="fill:black;font-size:15px;">Both</text>
+  <text x="430" y="13" style="fill:black;font-size:15px;">Others</text>
+</svg>
+</div>
+<svg viewBox="0 0 64 64" class="pie">
+ <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 18.0 100; stroke: green; stroke-dashoffset: -75.0;">
+  </circle>
+  <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 8.0 100; stroke: yellow; stroke-dashoffset: -93.0;">
+  </circle>
+  <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 1.0 100; stroke: yellow; stroke-dashoffset: 0.0;">
+  </circle>
+  <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 31.0 100; stroke: blue; stroke-dashoffset: -1.0;">
+  </circle>
+   <circle r="25%" cx="50%" cy="50%" style="stroke-dasharray: 21.0 100; stroke: darkgray; stroke-dashoffset: -32.0;">
+  </circle>
+  <text x="15" y="20" style="fill:white;font-size:5px;">21%</text>
+  <text x="40" y="20" style="fill:white;font-size:5px;">18%</text>
+  <text x="50" y="30" style="fill:black;font-size:5px;">9%</text>
+  <text x="40" y="45" style="fill:white;font-size:5px;">31%</text>
+  <text x="10" y="40" style="fill:white;font-size:5px;">21%</text>
+
+</svg>
+
+
+</html>
